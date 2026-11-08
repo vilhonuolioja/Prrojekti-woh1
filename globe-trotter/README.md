@@ -1,16 +1,34 @@
-# React + Vite
+# 🔴 PokéTeam Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web application built with React and Vite that allows users to explore the original 151 Pokémon, view detailed stats, and build their dream team with persistent local storage and data visualization.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Pokédex (Home):** Browse through the first 151 Pokémon with clean card layouts and responsive design.
+- **Pokemon Details:** View official artwork, types, height, weight, and base stats for any selected Pokémon.
+- **My Team (Bucket List):** Save up to 6 Pokémon to your local team (backed by `localStorage`) and visualize their stats using interactive **Chart.js** bar charts.
+- **Routing:** Seamless client-side navigation using `react-router-dom`.
+- **Styling:** Styled with **Bootstrap 5** for a fully responsive mobile-friendly layout.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (Component-based UI)
+- **Vite** (Build tool & development server)
+- **React Router** (Multi-page navigation)
+- **Bootstrap** (UI Styling)
+- **Chart.js & react-chartjs-2** (Data visualization)
+- **PokéAPI** (External REST API)
 
-## Expanding the Oxlint configuration
+## Getting Started Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Follow these instructions to get a local copy up and running on your machine.
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/vilhonuolioja/globe-trotter.git](https://github.com/vilhonuolioja/globe-trotter.git)

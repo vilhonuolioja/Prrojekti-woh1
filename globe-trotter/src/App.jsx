@@ -6,11 +6,10 @@ import BucketList from './pages/BucketList';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Prrojekti/">
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Reitin url vaihdettu /pokemon/ */}
         <Route path="/pokemon/:pokemonName" element={<PokemonDetails />} />
         <Route path="/bucketlist" element={<BucketList />} />
       </Routes>
