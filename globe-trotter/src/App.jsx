@@ -1,19 +1,17 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
-import CountryDetails from './pages/CountryDetails';
+import PokemonDetails from './pages/PokemonDetails';
 import BucketList from './pages/BucketList';
 
 function App() {
   return (
     <BrowserRouter>
-      {/* Navigation näkyy aina jokaisella sivulla */}
       <Navigation />
-      
-      {/* Routes vaihtaa näytettävää sivua URL:n perusteella */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/country/:countryName" element={<CountryDetails />} />
+        {/* Reitin url vaihdettu /pokemon/ */}
+        <Route path="/pokemon/:pokemonName" element={<PokemonDetails />} />
         <Route path="/bucketlist" element={<BucketList />} />
       </Routes>
     </BrowserRouter>

@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
       <div className="container">
-        <Link className="navbar-brand" to="/">🌎 GlobeTrotter</Link>
+        <Link className="navbar-brand" to="/">🔴 PokéTeam Builder</Link>
         <div className="navbar-nav">
-          <Link className="nav-link" to="/">Maapallo</Link>
-          <Link className="nav-link" to="/bucketlist">Matkahaaveet</Link>
+          <Link className="nav-link" to="/">Pokédex</Link>
+          <Link className="nav-link" to="/bucketlist">Oma Tiimi</Link>
         </div>
       </div>
     </nav>
